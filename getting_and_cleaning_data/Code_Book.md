@@ -2,113 +2,113 @@ CODE BOOK:  wearable computing dataset
 
 VARIABLES:
 
-Subject
-  subject number 1-10299 (avg dataset 1-180)
-Activity
-  activity labels
+<br>Subject
+  <br>subject number 1-10299 (avg dataset 1-180)
+<br>Activity
+  <br>activity labels
   <br>LAYING
-  SITTING
-  STANDING
-  WALKING
-  WALKING_DOWNSTAIRS
-  WALKING_UPSTAIRS
-tBodyAcc-mean-X
-tBodyAcc-mean-Y
-tBodyAcc-mean-Z
-tBodyAcc-std-X
-tBodyAcc-std-Y
-tBodyAcc-std-Z
-tGravityAcc-mean-X
-tGravityAcc-mean-Y
-tGravityAcc-mean-Z
-tGravityAcc-std-X
-tGravityAcc-std-Y
-tGravityAcc-std-Z
-tBodyAccJerk-mean-X
-tBodyAccJerk-mean-Y
-tBodyAccJerk-mean-Z
-tBodyAccJerk-std-X
-tBodyAccJerk-std-Y
-tBodyAccJerk-std-Z
-tBodyGyro-mean-X
-tBodyGyro-mean-Y
-tBodyGyro-mean-Z
-tBodyGyro-std-X
-tBodyGyro-std-Y
-tBodyGyro-std-Z
-tBodyGyroJerk-mean-X
-tBodyGyroJerk-mean-Y
-tBodyGyroJerk-mean-Z
-tBodyGyroJerk-std-X
-tBodyGyroJerk-std-Y
-tBodyGyroJerk-std-Z
-tBodyAccMag-mean
-tBodyAccMag-std
-tGravityAccMag-mean
-tGravityAccMag-std
-tBodyAccJerkMag-mean
-tBodyAccJerkMag-std
-tBodyGyroMag-mean
-tBodyGyroMag-std
-tBodyGyroJerkMag-mean
-tBodyGyroJerkMag-std
-fBodyAcc-mean-X
-fBodyAcc-mean-Y
-fBodyAcc-mean-Z
-fBodyAcc-std-X
-fBodyAcc-std-Y
-fBodyAcc-std-Z
-fBodyAccJerk-mean-X
-fBodyAccJerk-mean-Y
-fBodyAccJerk-mean-Z
-fBodyAccJerk-std-X
-fBodyAccJerk-std-Y
-fBodyAccJerk-std-Z
-fBodyGyro-mean-X
-fBodyGyro-mean-Y
-fBodyGyro-mean-Z
-fBodyGyro-std-X
-fBodyGyro-std-Y
-fBodyGyro-std-Z
-fBodyAccMag-mean
-fBodyAccMag-std
-fBodyBodyAccJerkMag-mean
-fBodyBodyAccJerkMag-std
-fBodyBodyGyroMag-mean
-fBodyBodyGyroMag-std
-fBodyBodyGyroJerkMag-mean
-fBodyBodyGyroJerkMag-std
-
+  <br>SITTING
+  <br>STANDING
+  <br>WALKING
+  <br>WALKING_DOWNSTAIRS
+  <br>WALKING_UPSTAIRS
+<br>tBodyAcc-mean-X
+<br>tBodyAcc-mean-Y
+<br>tBodyAcc-mean-Z
+<br>tBodyAcc-std-X
+<br>tBodyAcc-std-Y
+<br>tBodyAcc-std-Z
+<br>tGravityAcc-mean-X
+<br>tGravityAcc-mean-Y
+<br>tGravityAcc-mean-Z
+<br>tGravityAcc-std-X
+<br>tGravityAcc-std-Y
+<br>tGravityAcc-std-Z
+<br>tBodyAccJerk-mean-X
+<br>tBodyAccJerk-mean-Y
+<br>tBodyAccJerk-mean-Z
+<br>tBodyAccJerk-std-X
+<br>tBodyAccJerk-std-Y
+<br>tBodyAccJerk-std-Z
+<br>tBodyGyro-mean-X
+<br>tBodyGyro-mean-Y
+<br>tBodyGyro-mean-Z
+<br>tBodyGyro-std-X
+<br>tBodyGyro-std-Y
+<br>tBodyGyro-std-Z
+<br>tBodyGyroJerk-mean-X
+<br>tBodyGyroJerk-mean-Y
+<br>tBodyGyroJerk-mean-Z
+<br>tBodyGyroJerk-std-X
+<br>tBodyGyroJerk-std-Y
+<br>tBodyGyroJerk-std-Z
+<br>tBodyAccMag-mean
+<br>tBodyAccMag-std
+<br>tGravityAccMag-mean
+<br>tGravityAccMag-std
+<br>tBodyAccJerkMag-mean
+<br>tBodyAccJerkMag-std
+<br>tBodyGyroMag-mean
+<br>tBodyGyroMag-std
+<br>tBodyGyroJerkMag-mean
+<br>tBodyGyroJerkMag-std
+<br>fBodyAcc-mean-X
+<br>fBodyAcc-mean-Y
+<br>fBodyAcc-mean-Z
+<br>fBodyAcc-std-X
+<br>fBodyAcc-std-Y
+<br>fBodyAcc-std-Z
+<br>fBodyAccJerk-mean-X
+<br>fBodyAccJerk-mean-Y
+<br>fBodyAccJerk-mean-Z
+<br>fBodyAccJerk-std-X
+<br>fBodyAccJerk-std-Y
+<br>fBodyAccJerk-std-Z
+<br>fBodyGyro-mean-X
+<br>fBodyGyro-mean-Y
+<br>fBodyGyro-mean-Z
+<br>fBodyGyro-std-X
+<br>fBodyGyro-std-Y
+<br>fBodyGyro-std-Z
+<br>fBodyAccMag-mean
+<br>fBodyAccMag-std
+<br>fBodyBodyAccJerkMag-mean
+<br>fBodyBodyAccJerkMag-std
+<br>fBodyBodyGyroMag-mean
+<br>fBodyBodyGyroMag-std
+<br>fBodyBodyGyroJerkMag-mean
+<br>fBodyBodyGyroJerkMag-std
+<br>
 DATA:
 
-  The signals were used to estimate variables of the feature vector for each pattern:
+<br>  The signals were used to estimate variables of the feature vector for each pattern:
   '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions:
-            tbodyacc-xyz
-            tgravityacc-xyz
-            tbodyaccjerk-xyz
-            tbodygyro-xyz
-            tbodygyrojerk-xyz
-            tbodyaccmag
-            tgravityaccmag
-            tbodyaccjerkmag
-            tbodygyromag
-            tbodygyrojerkmag
-            fbodyacc-xyz
-            fbodyaccjerk-xyz
-            fbodygyro-xyz
-            fbodyaccmag
-            fbodyaccjerkmag
-            fbodygyromag
-            fbodygyrojerkmag
-
+            <br>tbodyacc-xyz
+            <br>tgravityacc-xyz
+            <br>tbodyaccjerk-xyz
+            <br>tbodygyro-xyz
+            <br>tbodygyrojerk-xyz
+            <br>tbodyaccmag
+            <br>tgravityaccmag
+            <br>tbodyaccjerkmag
+            <br>tbodygyromag
+            <br>tbodygyrojerkmag
+            <br>fbodyacc-xyz
+            <br>fbodyaccjerk-xyz
+            <br>fbodygyro-xyz
+            <br>fbodyaccmag
+            <br>fbodyaccjerkmag
+            <br>fbodygyromag
+            <br>fbodygyrojerkmag
+<br>
 The set of variables that were estimated from these signals are:
-  mean: Mean value
-  std: Standard deviation
+  <br>mean: Mean value
+  <br>std: Standard deviation
 
 
 TRANSFORMATIONS:
 
-  All the values are means, aggregated over 30 subjects and 6 activities, with the resulting dataset being 180 rows by 68 columns.
+  <br>All the values are means, aggregated over 30 subjects and 6 activities, with the resulting dataset being 180 rows by 68 columns.
 
 
 
