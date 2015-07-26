@@ -32,5 +32,4 @@ This is the process it follows:
     4) Loads the features and activity labels to the data
     5) Extracts the mean and standard deviation column names and data
     6) Processes the data then merges and creates data set
-    
-    The result is saved as "./tidy-UCI-HAR-dataset-AVG.txt", which will be a 180x68 data table (size w/out header row), where the first column contains subject IDs, the second column contains activity names, and the average for each of the 66 attributes  in columns 3...68. 
+The result is saved as "./tidy-UCI-HAR-dataset-AVG.txt", which will be a 180x68 data table (size w/out header row), where the first column contains subject IDs, the second column contains activity names, and the average for each of the 66 attributes  in columns 3...68. 
