@@ -6,7 +6,7 @@ Subject
   subject number 1-10299 (avg dataset 1-180)
 Activity
   activity labels
-    LAYING
+  <br>LAYING
   SITTING
   STANDING
   WALKING
